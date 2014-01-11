@@ -9,7 +9,7 @@ $:.unshift(lib) unless $:.include?(lib)
 
 Gem::Specification.new do |s|
   s.name = 'tables'
-  s.version = '0.0.14'
+  s.version = '0.0.15'
   s.platform = Gem::Platform::RUBY
   s.has_rdoc = true
   s.extra_rdoc_files = ['README', 'LICENSE']

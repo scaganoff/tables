@@ -50,7 +50,7 @@ module Tables
           puts ">> extracting row #{idx} (#{percent}%)"
         end
       end
-      Table.new(result)
+      Table.new(result,sheet.name)
     end
 
     def write_table(table, worksheet=0, options={})

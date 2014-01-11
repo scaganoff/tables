@@ -5,6 +5,7 @@
 # 
 source 'https://rubygems.org'
 
+gem 'rake'
 gem 'diff-lcs'
 group :development, :test do
   gem 'rspec'
